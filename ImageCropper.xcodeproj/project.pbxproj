@@ -14,6 +14,7 @@
 		BE09525D1B03913100C41310 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE09525C1B03913100C41310 /* Images.xcassets */; };
 		BE0952601B03913100C41310 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE09525E1B03913100C41310 /* LaunchScreen.xib */; };
 		BE09526C1B03913200C41310 /* ImageCropperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE09526B1B03913200C41310 /* ImageCropperTests.m */; };
+		BE0952771B03915300C41310 /* BFCropInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = BE0952761B03915300C41310 /* BFCropInterface.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		BE0952651B03913200C41310 /* ImageCropperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCropperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE09526A1B03913200C41310 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE09526B1B03913200C41310 /* ImageCropperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCropperTests.m; sourceTree = "<group>"; };
+		BE0952751B03915300C41310 /* BFCropInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFCropInterface.h; sourceTree = "<group>"; };
+		BE0952761B03915300C41310 /* BFCropInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFCropInterface.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		BE09524E1B03913100C41310 /* ImageCropper */ = {
 			isa = PBXGroup;
 			children = (
+				BE0952751B03915300C41310 /* BFCropInterface.h */,
+				BE0952761B03915300C41310 /* BFCropInterface.m */,
 				BE0952531B03913100C41310 /* AppDelegate.h */,
 				BE0952541B03913100C41310 /* AppDelegate.m */,
 				BE0952561B03913100C41310 /* ViewController.h */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE0952581B03913100C41310 /* ViewController.m in Sources */,
+				BE0952771B03915300C41310 /* BFCropInterface.m in Sources */,
 				BE0952551B03913100C41310 /* AppDelegate.m in Sources */,
 				BE0952521B03913100C41310 /* main.m in Sources */,
 			);
